@@ -1,0 +1,27 @@
+/*    <div class="global" id="inscription">
+        <section>
+            <h1>Inscription</h1>
+
+            <label  class="etiquette__nom" for="input__nom">Nom</label>
+            <input type="text" id="input__nom" placeholder="Votre nom de famille">
+            <label  class="etiquette__prenom" for="input__prenom">Prénom</label>
+            <input type="text" id="input__prenom" placeholder="Votre prénom">
+            <form action="/action_page.php">
+            <label for="bdaymonth">Date de naissance</label>
+            <input type="month" id="anniversaire" name="bdaymonth">
+            <input type="submit">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+            <input type="submit">
+            
+
+            </form>
+        </section>
+    </div>*/
+
+.inscription{
+    display: flex;
+    
+}

@@ -1,0 +1,66 @@
+/*
+    <div class="global" id="galerie">
+        <section> 
+            <h1>Galerie</h1>
+            <figure class="galerie">
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Cuisine.jpg" alt="">
+                </figure>
+
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Dehors.jpg" alt="">
+                </figure>
+
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Dinde.jpg" alt="">
+                </figure>
+
+
+            </figure>
+        </section>
+    </div>
+    */
+
+/* Conteneur principal*/
+.galerie{
+
+    display: flex;
+    gap: 20px;
+}
+/* Conteneur image*/
+
+.galerie__figure{
+    
+    transform: scale(1);
+    transition: all .5s;
+
+}
+
+.galerie__figure:hover{
+   
+    transform: scale(2);
+    z-index : 10;
+}
+.galerie__figure:hover  .galerie__img {
+     filter :none;
+}
+
+
+/* image*/
+
+.galerie__img{
+
+    width: 300px;
+    filter : blur(2px)  grayscale(100%) ;
+    box-shadow: 8px 3px 20px black;
+}
+
+/*figcaption*/
+
+.galerie__caption{
+    
+}
+
+#galerie{
+    background-image: url(../Images/Background_galerie.jpeg) ;
+}

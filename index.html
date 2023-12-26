@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2 Jovensky Similhomme</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/galerie.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/tableau.css">
+    <link rel="stylesheet" href="CSS/entete.css">
+    <link rel="stylesheet" href="CSS/Inscription.css">
+    <link rel="stylesheet" href="CSS/videos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="global" id="entete">
+    <header class="entete__centre">
+        <input type="checkbox"  id="chk_burger">
+        <label  id="burger" for="chk_burger">
+            <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="32" height="32" alt="">
+            <img src="https://s2.svgbox.net/hero-outline.svg?ic=x&color=000" width="32" height="32" alt="">
+        </label>
+    
+    <nav class="menu">
+        <a href="#entete">Entête</a>         
+        <a href="#accueil">Accueil</a>      
+        <a href="#article">Article</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#tableau">Tableau</a>        
+        <a href="#galerie">Galerie</a>
+        <a href="#videos">Vidéos</a>
+        <a href="#piedpage">Pied de page</a>
+    </nav>
+</header>
+</div>
+    
+    <!-- section accueil-->
+    <div class="global" id="accueil">
+
+    <section>
+        <h1>TP2</h1>
+        <ul>
+            <li>Auteur: Jovensky Similhomme</li>
+            <li>582-1W1 – Mise en page Web </li>
+            <li>Techniques d'intégration Multimédia</li>
+            <li>Collège de Maisonneuve</li>
+            <li>Automne 2023</li>
+
+        </ul> 
+    </section>
+
+    <div class="global" id="article">
+        <section>
+
+            <figure>
+                <img src="Images/Jovensky.jpg" width="400" height="500" alt="">
+                <figcaption>Image de Jovensky</figcaption>
+            </figure>
+            <h1>Jovensky Similhomme</h1>
+            <h2>"It really do be like that sometimes</h2>
+            <p>Jovensky Similhomme est une personne née à l'hôpital Sainte-Justine le 10 Avril 2005. 
+            Il est le plus jeune de la famille Similhomme et fils de Jonas Similhomme et de Yvelise Hérisse.
+             Il vit à Montréal dans un petit quartier à Rivière-Des-Prairies avec sa famille</p>
+       </section>
+
+        <section>
+             <h1>Apparence</h1>
+             <p>Jovensky à des cheveux courts, yeux brun et pour la plupart du temps, une barbe. Ayant une hauteur de 5 pieds 9, Jovensky est
+                un adulte de 18 ans d'origine haitienne avec une peau foncée. 
+             </p>
+        </section>
+
+        <section>
+            <h1>Personalité</h1>
+
+            <p>Jovensky est très extroverti et possède une attitude enjouée et ouverte, il aime plus particulièrement parler avec ses amis. 
+                Il déteste les conflis, surtout ceux les plus inutiles et peux être plutôt sensible parfois. Il est énergétique, plutôt tête en l'air
+                mais toujours déterminé à faire tout ce qu'il pense être juste.
+            </p>
+        </section>
+      
+    </div>
+    </div>
+    <!-- section inscription-->
+    <div class="global" id="inscription">
+        <section>
+            <h1>Inscription</h1>
+
+            <label  class="etiquette__nom" for="input__nom">Nom</label>
+            <input type="text" id="input__nom" placeholder="Votre nom de famille">
+            <label  class="etiquette__prenom" for="input__prenom">Prénom</label>
+            <input type="text" id="input__prenom" placeholder="Votre prénom">
+            <form action="/action_page.php">
+            <label for="bdaymonth">Date de naissance</label>
+            <input type="month" id="anniversaire" name="bdaymonth">
+            <input type="submit">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+            <input type="submit">
+            
+
+            </form>
+        </section>
+    </div>
+    <!--section tableau -->
+    <div class="global" id="tableau">
+        <section>
+            <h1>Tableau</h1>
+
+            <table class="horaire">
+                <caption>Horaire session automne 2023</caption>
+        
+                <tr>
+                    <th></th>
+                    <th>LUN</th>
+                    <th>MAR</th>
+                    <th>MER</th>
+                    <th>JEU</th>
+                    <th>VEN</th>
+                </tr>
+                <tr>
+                    <th>8h</th>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="3" class="psycho">Psychopatologie</td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+        
+                <tr>
+                    <th>9h</th>
+                     <td></td>
+                     <td></td>
+            
+                     <td></td>
+                     <td></td>
+                </tr>
+                
+                <tr>
+                    <th>10h</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+        
+                <tr>
+                    <th>11h</th>
+                    <td rowspan="3" class="anglais">Anglais</td>
+                    <td></td>
+                    <td rowspan="3" class="philo">Philosophie</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+        
+                <tr>
+                    <th>12h</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>13h</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>14h</th>
+                    <td></td>
+                    <td rowspan="4" class="web">Web</td>
+                    <td></td>
+                    <td rowspan="3" class="web">Web</td>
+                </tr>
+                <tr>
+                    <th>15h</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>16h</th>
+                    <td rowspan="3" class="educ">Santé</td>
+                    <td></td>        
+                    <td rowspan="3" class="philo">Philosophie</td>  
+                </tr>
+                <tr>
+                    <th>17h</th>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>18h</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+        
+            </table>
+        </section>
+    </div>
+
+    <!-- section Galerie-->
+
+    <div class="global" id="galerie">
+        <section> 
+            <h1>Galerie</h1>
+            <figure class="galerie">
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Cuisine.jpg" alt="">
+                </figure>
+
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Dehors.jpg" alt="">
+                </figure>
+
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Dinde.jpg" alt="">
+                </figure>
+
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Diner_Noel.jpg" alt="">
+                </figure>
+
+                
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="Images/Route.jpg" alt="">
+                </figure>
+
+            </figure>
+        </section>
+    </div>
+
+    <!--Section vidéos-->
+
+    <div class="global" id="videos">
+        <section>
+            <h1>Vidéos</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i8UXwQQeqig?si=wLDsZqnly5QGUqUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bSCANspTDeE?si=tVj1f66Dk1FrSe-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uHGShqcAHlQ?si=-lJnf9NkQrg-s9L7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </section>
+    </div>
+
+    <!--Section pied de page-->
+    <div class="global" id="piedpage"> 
+        <footer>
+            <section>
+            <ul>
+                <li> <a href="https://cmaisonneuve.qc.ca">Collège de Maisonneuve</a></li>
+                <li>3800 Sherbrooke-Est</li>
+                <li>Montréal, QC</li>
+                <li>H1X 2A2</li>
+                <li>Tel: 514-254-7131</li>
+            </ul>
+            </section>
+
+            <section>
+                <h3>Média Sociaux</h3>
+                <a href="https://www.facebook.com/CollegeMaisonneuve/">
+                    <img src="Images/facebook_32.png" alt="">
+                </a>
+               <a href="https://www.instagram.com/collegemaisonneuve/?hl=en"> 
+                <img src="Images/instagram_32.png" alt="">
+               </a>
+                <a href="https://www.youtube.com/channel/UCIXtOLJmwNPBUuR-sGm7VSw">
+               <img src="Images/youtube_32.png" alt="">
+               </a>
+             </section>
+
+            <section>
+                <p>Avis de confidentialité| Privacy Notice</p>
+             </section>
+
+              
+        </footer>
+    </div>
+</body>
+</html>

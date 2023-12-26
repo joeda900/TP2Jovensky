@@ -1,0 +1,72 @@
+/*    <div class="global" id="entete">
+        <input type="checkbox"  id="chk_burger">
+        <label  id="burger" for="chk_burger">
+            <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="32" height="32">
+        </label>
+    </div>
+    <nav class="menu">
+        <a href="Entete">Entête</a>
+        <a href="Accueil">Accueil</a>
+        <a href="Inscription">Inscription</a>
+        <a href="gallerie">Gallerie</a>
+        <a href="Article">Article</a>
+        <a href="Menu">Menu</a>
+        <a href="Videos">Vidéos</a>
+        <a href="Tableau"></a>
+        <a href="PiedDePage">Pied de page</a>
+        </nav> */
+
+#chk_burger {
+    display: none;
+}
+#chk_burger:checked ~ .menu {
+    transform: translateY(0);
+}
+
+#chk_burger {
+    display: none;
+}
+
+#chk_burger:checked ~ #burger img:nth-of-type(2){
+    display: block;
+}
+#chk_burger:checked ~ #burger img:nth-of-type(1){
+    display: none; 
+}
+
+.menu {
+    display : flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 30px;
+    transform: translateY(-250%);
+    transition : transform .25s;
+    background-color: rgb(1, 78, 106);
+    width: 200px
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+#burger img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#burger{
+    z-index: 10;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: transform 0.5s ;
+}
+
+#burger img:nth-of-type(1){
+    display: block;
+}
+
+#burger img:nth-of-type(2){
+    display: none;
+}

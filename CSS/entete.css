@@ -1,0 +1,9 @@
+#entete {
+    /* background-color: rgb(220, 204, 102); */
+    background-image: linear-gradient(90deg, #024234, #0b9f95);
+     position : sticky;
+     top:0;
+     /* Permet à la division #entete d'être au dessus des zones du site */
+     z-index: 10;
+ }
+

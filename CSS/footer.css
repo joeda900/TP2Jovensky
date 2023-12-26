@@ -1,0 +1,69 @@
+/*<div class="global" id="piedpage"> 
+<footer>
+    
+    <ul>
+        <li> <a href="https://cmaisonneuve.qc.ca">Collège de Maisonneuve</a></li>
+        <li>3800 Sherbrooke-Est</li>
+        <li>Montréal, QC</li>
+        <li>H1X 2A2</li>
+        <li>Tel: 514-254-7131</li>
+    </ul>
+
+              <section>
+                <p>Avis de confidentialité| Privacy Notice</p>
+             </section>
+</footer>
+</div>*/
+
+#piedpage{ 
+    display: flex;
+    background-color: rgba(0, 255, 255, 0.378);
+    min-height: 0vh;
+    padding-left: 30px;
+
+}
+
+/*#piedpage footer{
+    border: 3px dotted black;
+}
+*/
+
+#piedpage section{
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+#piedpage ul li{
+    list-style-type: none ;
+}
+
+#piedpage ul li:nth-of-type(1):before{
+    content: "🏫";
+    display: inline-block;
+}
+
+#piedpage ul li:nth-of-type(2):before{
+    content: "🏠";
+    display: inline-block;
+}
+
+#piedpage ul li:nth-of-type(3):before{
+    content: "🌎";
+    display: inline-block;
+}
+
+#piedpage ul li:nth-of-type(5):before{
+    content: "📞";
+    display: inline-block;
+}
+
+#piedpage section{
+    min-width: 100vh;
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+}
+

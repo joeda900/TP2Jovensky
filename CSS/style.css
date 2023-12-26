@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+
+html{
+
+    box-sizing: border-box;
+}
+*,
+*::before,
+*:after{
+    box-sizing: inherit;
+}
+
+/* ------------------------------------- */
+
+div{
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#entete{
+    position: sticky;
+    min-height: 100px;
+}
+
+#entete header{
+    align-items: center;
+    flex-direction: row;
+    justify-content:baseline;
+}
+.global{
+    min-width: 100%;
+    border:  1px solid #aaa;
+    min-height: 100vh;
+}
+
+#accueil{
+    background-color: rgba(127, 255, 212, 0.599);
+}
+
+
+#inscription{
+    background-color: rgba(0, 95, 204, 0.57);
+}
+
+#videos{
+    background-color: rgba(0, 0, 144, 0.699);
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px ;
+}
